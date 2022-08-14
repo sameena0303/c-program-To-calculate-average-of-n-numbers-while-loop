@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+  int i=0,n,sum=0,num;
+  float A;
+  printf("\nEnter How many Number you want : ");
+  scanf("%d",&n);
+  printf("\nEnter Numbers \n");
+  while(i<n)
+   {
+     scanf("%d",&num);
+     sum =sum+num;
+     i++;
+   }
+  A=sum/(float)n;
+  printf("\nSum of Numbers = %d", sum);
+  printf("\nAverage of Numbers = %.2f", A);
+  return 0;
+}
